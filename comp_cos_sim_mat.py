@@ -1,8 +1,10 @@
 import numpy as np
 import sys
+import pdb
 
-embedding_path = sys.argv[1] # '/data/medg/misc/jindi/nlp/embeddings/counter-fitted-vectors.txt'
-
+pdb.set_trace()
+#embedding_path = sys.argv[1] # '/data/medg/misc/jindi/nlp/embeddings/counter-fitted-vectors.txt'
+embedding_path = '../counter-fitted-vectors.txt'
 embeddings = []
 with open(embedding_path, 'r') as ifile:
     for line in ifile:
